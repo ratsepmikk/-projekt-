@@ -57,7 +57,7 @@ print("Sa tutvusid " + sõber + "ega ja ta sai su parimaks sõbraks")
 time.sleep(3)
 if valik1 == "sõbralik":
   print("Te saite omavahel hästi läbi ja te tegite kõike koos. Temast saab kindlasti sõber terveks eluks.")
-  päevik += ("Klassikaaslane : Said uue sõbra " + sõber + " koguks eluks." + "\n")
+  päevik += ("Klassikaaslane : Said uue sõbra " + sõber + "e koguks eluks." + "\n")
 elif valik1 == "pahatahtlik":
   print("Vahel sa käitusid oma uue sõbra vastu halvasti, aga te saite kenasti läbi. Tegite koos pahandusi.")
   päevik += ("Klassikaaslane : Olite kaks paharätti" + "\n")
