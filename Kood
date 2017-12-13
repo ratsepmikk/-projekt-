@@ -26,35 +26,29 @@ rahulik = randint(1,100)
 print("Möödub kolm aastat ja sa oled lasteaias.")
 time.sleep(2)
 valik1 = ""
-while valik1 != "pahatahtlik" or valik1 != "sõbralik" or valik1 != "rahulik": 
+while valik1 != "pahatahtlik" and valik1 != "sõbralik" and valik1 != "rahulik": 
   valik1 = input("Vali, kas sa oled sõbralik, pahatahtlik või rahulik: ")
   if valik1 == ("sõbralik"):
     if sõbralik > pahatahtlik:
       print("Oled paljude lasteaiakaaslastega sõber. Sul on lasteaias tore")
       päevik += ("Lasteaed : Möödus toredalt" + "\n")
-      break
     elif pahatahtlik > sõbralik:
       print("Üritasid palju, et sõbruneda lasteaiakaaslastega, kuid see ei õnnestunud.")
       päevik += ("Lasteaed : Lasteaias ei olnud sul väga sõpru ja sa olid üksik" + "\n")
-      break
   elif valik1 == "pahatahtlik":
     if pahatahtlik >= 3:
       print("Sa oled väga pahatahtlik ja sul pole palju sõpru.")
       päevik+= ("Lasteaed : Lastead oli väga probleemne" + "\n")
-      break
     elif pahatahtlik < 3:
       print("Sa ei olnud lasteaias eriti sõbralik, aga su rühmakaaslased võtsid sind vastu")
       päevik += ("Lastead : Sa käitusid halvasti!" + "\n")
-      break
   elif valik1 == "rahulik":
     if rahulik <= 50:
       print("Sul on paar head sõpra, kuid ülejäänutega ei suhtle")
       päevik += ("Lasteaed : Möödus rahulikult ja hästi" + "\n")
-      break
     elif rahulik > 50:
       print("Suhtled kõigiga, kuid sul pole häid sõpru")
       päevik += ("Lasteaed : Möödus hästi, aga oleks saanud paremini" + "\n")
-      break
 time.sleep(3)
 print("Sa oled nüüd 7 aastane ja sa lähed põhikooli. On 1. september 2001. Toimus tutvusring")
 time.sleep(3)
