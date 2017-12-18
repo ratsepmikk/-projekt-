@@ -1,5 +1,5 @@
 file = open("tekst.txt", "r")
-päevik = open("päevik.txt", "a+")
+paevik = open("päevik.txt", "a+")
 rida = file.readlines()
 #Tekitab muutuja nime kasutaja sisendiga
 import time
@@ -12,7 +12,7 @@ time.sleep(2)
 #esimese sõna valimine
 essa = input("Sa kasvad ja saad vanemaks, õpid rääkima, mis on sinu esimene sõna? ")
 print("Ema : Oi, sa ütlesid " + essa + ", see tuleb küll päevikusse kirja panna.")
-päevik.write("Esimene sõna : " + essa.title() + "\n")
+paevik.write("Esimene sõna : " + essa.title() + "\n")
 time.sleep(3)
 print(rida[0])
 time.sleep(2)
@@ -20,10 +20,10 @@ from random import *
 võimalus = randint(1,100)
 if võimalus <= 25:
   print(rida[1])
-  päevik.write("Kolmas sünnipäev: Ilastasid koogile ja said kogu koogi endale" + "\n")
+  paevik.write("Kolmas sünnipäev: Ilastasid koogile ja said kogu koogi endale" + "\n")
 else:
   print(rida[2])
-  päevik.write("Kolmas sünnipäev: Oli üks parimaid mälestusi su elus." + "\n")
+  paevik.write("Kolmas sünnipäev: Oli üks parimaid mälestusi su elus." + "\n")
 time.sleep(5)
 pahatahtlik = randint(1,10)
 sõbralik = randint(1,100)
@@ -36,24 +36,24 @@ while valik1 != "pahatahtlik" and valik1 != "sõbralik" and valik1 != "rahulik":
   if valik1 == ("sõbralik"):
     if sõbralik > pahatahtlik:
       print(rida[4])
-      päevik.write("Lasteaed : Möödus toredalt" + "\n")
+      paevik.write("Lasteaed : Möödus toredalt" + "\n")
     elif pahatahtlik > sõbralik:
       print(rida[5])
-      päevik.write("Lasteaed : Lasteaias ei olnud sul väga sõpru ja sa olid üksik" + "\n")
+      paevik.write("Lasteaed : Lasteaias ei olnud sul väga sõpru ja sa olid üksik" + "\n")
   elif valik1 == "pahatahtlik":
     if pahatahtlik >= 3:
       print(rida[6])
-      päevik.write("Lasteaed : Lastead oli väga probleemne" + "\n")
+      paevik.write("Lasteaed : Lastead oli väga probleemne" + "\n")
     elif pahatahtlik < 3:
       print(rida[7])
-      päevik.write("Lastead : Sa käitusid halvasti!" + "\n")
+      paevik.write("Lastead : Sa käitusid halvasti!" + "\n")
   elif valik1 == "rahulik":
     if rahulik <= 50:
       print(rida[8])
-      päevik.write("Lasteaed : Möödus rahulikult ja hästi" + "\n")
+      paevik.write("Lasteaed : Möödus rahulikult ja hästi" + "\n")
     elif rahulik > 50:
       print(rida[9])
-      päevik.write("Lasteaed : Möödus hästi, aga oleks saanud paremini" + "\n")
+      paevik.write("Lasteaed : Möödus hästi, aga oleks saanud paremini" + "\n")
 time.sleep(3)
 print(rida[10])
 time.sleep(3)
@@ -62,12 +62,12 @@ print("Sa tutvusid " + sõber + "ega ja ta sai su parimaks sõbraks")
 time.sleep(3)
 if valik1 == "sõbralik":
   print(rida[11])
-  päevik.write("Klassikaaslane : Said uue sõbra " + sõber + "e koguks eluks." + "\n")
+  paevik.write("Klassikaaslane : Said uue sõbra " + sõber + "e koguks eluks." + "\n")
 elif valik1 == "pahatahtlik":
   print(rida[12])
-  päevik.write("Klassikaaslane : Olite kaks paharätti" + "\n")
+  paevik.write("Klassikaaslane : Olite kaks paharätti" + "\n")
 elif valik1 == "rahulik":
   print(rida[13])
-  päevik.write("Klassikaaslane : Käitusite normaalselt ja saite häid hindeid" + "\n")
+  paevik.write("Klassikaaslane : Käitusite normaalselt ja saite häid hindeid" + "\n")
 file.close()
-päevik.close()
+paevik.close()
