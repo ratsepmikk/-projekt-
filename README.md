@@ -1,2 +1,1 @@
-Teha teksti faile
-Teha loo edenemist
+Edendada lugu, et edasi koodida
