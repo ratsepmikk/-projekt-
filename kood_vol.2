@@ -1,6 +1,18 @@
-file = open("tekst.txt", "r")
+from urllib.request import urlopen
+
 paevik = open("päevik.txt", "a+")
-rida = file.readlines()
+file = urlopen("https://raw.githubusercontent.com/Sukuswarrior/-projekt/master/print.txt")
+paevik = open("päevik.txt", "a+")
+
+tekst = " "
+rida = ""
+while tekst != "":
+    baidid = file.readline()
+    tekst = baidid.decode()
+    rida += tekst
+file.close()
+rida = rida.splitlines()
+
 #Tekitab muutuja nime kasutaja sisendiga
 import time
 #soo valimine
