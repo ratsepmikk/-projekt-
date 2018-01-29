@@ -17,6 +17,15 @@ Kui vastad jah: Lähete kinno veedate toredalt aega ja pärast lähete diskole.
 Diskol kohtud ühe tüdrukuga ja sa said ta nr.
 Järgmine päev sa otsustad talle helistada.
 Sa kutsud ta välja.
+Järgmine päev:
+Koolis on kontrolltöö, sul ei lähe kõige paremini aga saad 3-.
+Lähed koju ja teed end korda.
+Sa ei tea kas olla jutukas või 
+
+
 
 Kui vastad ei: Istud kodus ja hakkad viina suurest depresioonist jooma.
-Järgmine päev lähed pohmakaga kooli ja kukud kontrolltööst läbi.
+Järgmine päev:
+Lähed pohmakaga kooli ja kukud kontrolltööst läbi.
+Õhtul jääd vanematele vahele, et olid viina pudeli ära joonud, jääd koduaresti.
+Kaotad elu tahte ja klassikaaslased soovitavad sul terapeudi juurde minna.
