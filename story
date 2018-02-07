@@ -24,8 +24,7 @@ Sa ei tea kas olla jutukas või
 
 
 
-Kui vastad ei: Istud kodus ja hakkad viina suurest depresioonist jooma.
+Kui vastad ei: Istud kodus ja hakkad suurest igavusest CS-i mängima, unustades õppida.
 Järgmine päev:
-Lähed pohmakaga kooli ja kukud kontrolltööst läbi.
-Õhtul jääd vanematele vahele, et olid viina pudeli ära joonud, jääd koduaresti.
-Kaotad elu tahte ja klassikaaslased soovitavad sul terapeudi juurde minna.
+Lähed õppimata kooli ja kukud kontrolltööst läbi.
+Sinult võetakse nädalaks ajaks arvuti ära ja nüüd pole sul peale kooli midagi teha niiet pead aega sisustama õppimisega mis tuleb sulle kasuks.
